@@ -16,19 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y3t-00-bQL">
-                                <rect key="frame" x="20" y="141" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y3t-00-bQL" customClass="FSCalendar">
+                                <rect key="frame" x="20" y="44" width="374" height="418"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y3t-00-bQL" secondAttribute="trailing" constant="20" id="7SC-Uw-d8j"/>
+                            <constraint firstItem="y3t-00-bQL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VSc-NX-L0Z"/>
+                            <constraint firstItem="y3t-00-bQL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZIa-C9-jpT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="y3t-00-bQL" secondAttribute="bottom" constant="400" id="dkx-Yg-PYd"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="calendar" destination="y3t-00-bQL" id="vpv-oY-eEn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="89"/>
+            <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
         </scene>
     </scenes>
     <resources>
