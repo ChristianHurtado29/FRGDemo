@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0798E7FC6FE20AB13C61E1C7 /* Pods_FRGDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604BF551BD0626ED0B05AFC9 /* Pods_FRGDemo.framework */; };
+		13647251259FF2C6008EBE03 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13647250259FF2C6008EBE03 /* CreateViewController.swift */; };
 		13837E78259F1B0C00F15B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13837E77259F1B0C00F15B1D /* AppDelegate.swift */; };
 		13837E7A259F1B0C00F15B1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13837E79259F1B0C00F15B1D /* SceneDelegate.swift */; };
 		13837E7C259F1B0C00F15B1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13837E7B259F1B0C00F15B1D /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		13837E84259F1B0E00F15B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13837E82259F1B0E00F15B1D /* LaunchScreen.storyboard */; };
 		13837E8F259F1B0E00F15B1D /* FRGDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13837E8E259F1B0E00F15B1D /* FRGDemoTests.swift */; };
 		13837E9A259F1B0E00F15B1D /* FRGDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13837E99259F1B0E00F15B1D /* FRGDemoUITests.swift */; };
+		1384A270259F21210051B5D6 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384A26F259F21210051B5D6 /* Appointment.swift */; };
+		1384A275259F21630051B5D6 /* Barber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384A274259F21630051B5D6 /* Barber.swift */; };
+		1384A27A259F266C0051B5D6 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384A279259F266C0051B5D6 /* DateViewController.swift */; };
 		4589F525C5EEECC20A3DD9B8 /* Pods_FRGDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13311314AB0CA55A77AF2281 /* Pods_FRGDemoTests.framework */; };
 		6958CC8A0BB803F14C7E28EE /* Pods_FRGDemo_FRGDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7225F6753E764FD89A979379 /* Pods_FRGDemo_FRGDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		13311314AB0CA55A77AF2281 /* Pods_FRGDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRGDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13647250259FF2C6008EBE03 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		13837E74259F1B0C00F15B1D /* FRGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13837E77259F1B0C00F15B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13837E79259F1B0C00F15B1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +58,9 @@
 		13837E95259F1B0E00F15B1D /* FRGDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRGDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13837E99259F1B0E00F15B1D /* FRGDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRGDemoUITests.swift; sourceTree = "<group>"; };
 		13837E9B259F1B0E00F15B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1384A26F259F21210051B5D6 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		1384A274259F21630051B5D6 /* Barber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barber.swift; sourceTree = "<group>"; };
+		1384A279259F266C0051B5D6 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		39121200CDEBFC69F597E314 /* Pods-FRGDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRGDemo.debug.xcconfig"; path = "Target Support Files/Pods-FRGDemo/Pods-FRGDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3EB696A85A522EDD85D850E1 /* Pods-FRGDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRGDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FRGDemoTests/Pods-FRGDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		4BCC5C29225AC625DC4DAD99 /* Pods-FRGDemo-FRGDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRGDemo-FRGDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-FRGDemo-FRGDemoUITests/Pods-FRGDemo-FRGDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,7 +126,11 @@
 			children = (
 				13837E77259F1B0C00F15B1D /* AppDelegate.swift */,
 				13837E79259F1B0C00F15B1D /* SceneDelegate.swift */,
+				1384A274259F21630051B5D6 /* Barber.swift */,
+				1384A26F259F21210051B5D6 /* Appointment.swift */,
 				13837E7B259F1B0C00F15B1D /* ViewController.swift */,
+				1384A279259F266C0051B5D6 /* DateViewController.swift */,
+				13647250259FF2C6008EBE03 /* CreateViewController.swift */,
 				13837E7D259F1B0C00F15B1D /* Main.storyboard */,
 				13837E80259F1B0E00F15B1D /* Assets.xcassets */,
 				13837E82259F1B0E00F15B1D /* LaunchScreen.storyboard */,
@@ -165,7 +177,6 @@
 				F4845FDE2563CB2B4DA095E6 /* Pods-FRGDemoTests.debug.xcconfig */,
 				3EB696A85A522EDD85D850E1 /* Pods-FRGDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,7 +420,11 @@
 			files = (
 				13837E7C259F1B0C00F15B1D /* ViewController.swift in Sources */,
 				13837E78259F1B0C00F15B1D /* AppDelegate.swift in Sources */,
+				13647251259FF2C6008EBE03 /* CreateViewController.swift in Sources */,
 				13837E7A259F1B0C00F15B1D /* SceneDelegate.swift in Sources */,
+				1384A270259F21210051B5D6 /* Appointment.swift in Sources */,
+				1384A27A259F266C0051B5D6 /* DateViewController.swift in Sources */,
+				1384A275259F21630051B5D6 /* Barber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
