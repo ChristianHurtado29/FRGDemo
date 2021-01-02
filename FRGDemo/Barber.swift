@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Barber {
+struct Barber: Codable {
     let name: String
     let appointments: [Appointment]
     let workDays: [String]

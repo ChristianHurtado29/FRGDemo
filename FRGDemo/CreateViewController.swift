@@ -8,6 +8,8 @@
 import UIKit
 
 class CreateViewController: UIViewController {
+    
+    public var appointments = [Appointment]()
 
     override func viewDidLoad() {
         super.viewDidLoad()

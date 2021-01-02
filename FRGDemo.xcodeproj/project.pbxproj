@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0798E7FC6FE20AB13C61E1C7 /* Pods_FRGDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604BF551BD0626ED0B05AFC9 /* Pods_FRGDemo.framework */; };
 		13647251259FF2C6008EBE03 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13647250259FF2C6008EBE03 /* CreateViewController.swift */; };
+		13647256259FF58B008EBE03 /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13647255259FF58B008EBE03 /* PersistenceHelper.swift */; };
+		1364725B259FF6C6008EBE03 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1364725A259FF6C6008EBE03 /* Extension.swift */; };
 		13837E78259F1B0C00F15B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13837E77259F1B0C00F15B1D /* AppDelegate.swift */; };
 		13837E7A259F1B0C00F15B1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13837E79259F1B0C00F15B1D /* SceneDelegate.swift */; };
 		13837E7C259F1B0C00F15B1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13837E7B259F1B0C00F15B1D /* ViewController.swift */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		13311314AB0CA55A77AF2281 /* Pods_FRGDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRGDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13647250259FF2C6008EBE03 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		13647255259FF58B008EBE03 /* PersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
+		1364725A259FF6C6008EBE03 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		13837E74259F1B0C00F15B1D /* FRGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13837E77259F1B0C00F15B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13837E79259F1B0C00F15B1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				13647250259FF2C6008EBE03 /* CreateViewController.swift */,
 				13837E7D259F1B0C00F15B1D /* Main.storyboard */,
 				13837E80259F1B0E00F15B1D /* Assets.xcassets */,
+				1364725A259FF6C6008EBE03 /* Extension.swift */,
+				13647255259FF58B008EBE03 /* PersistenceHelper.swift */,
 				13837E82259F1B0E00F15B1D /* LaunchScreen.storyboard */,
 				13837E85259F1B0E00F15B1D /* Info.plist */,
 			);
@@ -418,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1364725B259FF6C6008EBE03 /* Extension.swift in Sources */,
 				13837E7C259F1B0C00F15B1D /* ViewController.swift in Sources */,
 				13837E78259F1B0C00F15B1D /* AppDelegate.swift in Sources */,
 				13647251259FF2C6008EBE03 /* CreateViewController.swift in Sources */,
@@ -425,6 +432,7 @@
 				1384A270259F21210051B5D6 /* Appointment.swift in Sources */,
 				1384A27A259F266C0051B5D6 /* DateViewController.swift in Sources */,
 				1384A275259F21630051B5D6 /* Barber.swift in Sources */,
+				13647256259FF58B008EBE03 /* PersistenceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
